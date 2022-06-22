@@ -30,3 +30,15 @@ form {
     min-width: 350px;
     margin: 0 auto;
 }
+
+/*TODO: Do not forget delete borders from field sets at the end of styling*/
+
+fieldset {
+    padding: 1.5rem 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+#submit {
+    margin: 0 auto;
+    display: block;
+}
