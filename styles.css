@@ -5,3 +5,14 @@ body {
     background-color: #f3eded;
     color: #313131
 }
+
+h1, p {
+    text-align: center;
+}
+
+form {
+    width: 70vw;
+    max-width: 600px;
+    min-width: 350px;
+    margin: 0 auto;
+}
