@@ -3,10 +3,24 @@ body {
     height: 100vw;
     margin: 0;
     background-color: #f3eded;
-    color: #313131
+    color: #313131;
+    font-size: 14px;
 }
 
-h1, p {
+/*It would be better to have title and description wrapped up in header. However, this project's purpose - to get beginner's practice.*/
+
+#title {
+    font-size: 2.7rem;
+    margin: 0.9em auto 0.3em;
+}
+
+#description {
+    font-size: 1.25rem;
+    font-style: italic;
+    margin: 0.1em auto 1.8em;
+}
+
+#title, #description {
     text-align: center;
 }
 
