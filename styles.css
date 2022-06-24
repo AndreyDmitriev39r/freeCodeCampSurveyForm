@@ -42,3 +42,13 @@ fieldset {
     margin: 0 auto;
     display: block;
 }
+
+p {
+    text-align: center;
+}
+
+label {
+    display: block;
+    width: 90%;
+    margin: 1.3rem auto;
+}
