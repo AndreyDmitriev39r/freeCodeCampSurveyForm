@@ -67,3 +67,9 @@ input[type="checkbox"], input[type="radio"] {
     width: unset;
     vertical-align: text-bottom;    
 }
+
+/*TODO:
+    --figure out how effectively align label text with nested elems
+    --choose fonts, set font-sizes, consider styling text itself(i.e. distance  between characters)
+    --work on margins and padding
+*/
