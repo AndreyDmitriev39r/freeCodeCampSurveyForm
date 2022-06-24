@@ -50,5 +50,20 @@ p {
 label {
     display: block;
     width: 90%;
-    margin: 1.3rem auto;
+    margin: 1.3rem auto;    
+}
+
+/* for elems which NOT suppose to be inline wit label text*/
+
+select, input, textarea {
+    width: 100%;
+    margin-top: 0.7rem;
+}
+
+/* for elems which suppose to be inline wit label text*/
+
+input[type="checkbox"], input[type="radio"] {
+    display: inline;
+    width: unset;
+    vertical-align: text-bottom;    
 }
