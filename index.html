@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--TODO    AFTER merging css branch
+    add more options to dropdown and challenges
+    add placeholder to textarea
+    check INPUTS in terms of valid attributes
+-->
+<html lang="en">
+    <head>
+        <title>freeCodeCamp Registration Form Project</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking time to help us improve the platform</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">Name
+                    <input id="name" type="text" placeholder="Enter your name" required/>
+                </label>
+                <label id="email-label">Email
+                    <input id="email" type="email" required placeholder="Enter your email"/>
+                </label>
+                <label id="number-label">Age
+                    <input id="number" type="number" min="5" max="100" placeholder="Age"/>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Which option best describes your current role?
+                    <select id="dropdown">
+                        <option value="">select role</option>
+                        <option value="1">Full Time Job</option>
+                        <option value="2">Full Time Learner</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <p>Would you recommend us?</p>
+                <label>Yes
+                    <input type="radio" name="recommend-yes-no" value="recommend"/>
+                </label>
+                <label>No
+                    <input type="radio" name="recommend-yes-no" value="not recommend"/>
+                </label>            
+            </fieldset>
+            <fieldset>
+                <p>What would you like to see improved?</p>
+                <label>Challenges
+                    <input type="checkbox" value="challenges"/>
+                </label>
+                <label>Videos
+                    <input type="checkbox" value="videos"/>
+                </label>
+                <label>Forum
+                    <input type="checkbox" value="forum"/>
+                </label>                
+            </fieldset>
+            <fieldset>
+                <label>Do you have any suggestions?
+                    <textarea rows="5" cols="40">
+                    </textarea>
+                </label>
+            </fieldset>
+            <input type="submit" id="submit" value="Submit" />
+        </form>
+    </body>
+</html>
