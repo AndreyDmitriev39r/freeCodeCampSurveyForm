@@ -8,7 +8,7 @@ body {
     font-size: 14px;
 }
 
-/*It would be better to have title and description wrapped up in header. However, this project's purpose - to get beginner's practice.*/
+/*Consider to have title and description wrapped up in header*/
 
 #title {
     font-size: 2.7rem;
@@ -34,8 +34,6 @@ form {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0.1em;    
 }
-
-/*TODO: Do not forget delete borders from field sets at the end of styling*/
 
 fieldset {
     padding: 1.5rem 0.7rem;
@@ -78,7 +76,5 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 /*TODO:
-    --figure out how effectively align label text with nested elems
-    --choose fonts, set font-sizes, consider styling text itself(i.e. distance  between characters)
-    --work on margins and padding
+    --figure out how effectively align label text with nested elems    
 */
