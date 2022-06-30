@@ -75,7 +75,9 @@ select, input, textarea {
 input[type="checkbox"], input[type="radio"] {
     display: inline;
     width: unset;
-    vertical-align: -44%; /*!!!!figure out why middle isn't working as expected*/   
+    vertical-align: -44%; /*!!!!figure out why middle isn't working as expected*/
+    min-height: 25px;
+    min-width: 25px;
 }
 
 
