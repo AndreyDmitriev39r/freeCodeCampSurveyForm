@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 100vh; /* was messed up by using vh instead of vw*/
+    height: 100vh; /* was messed up by using vw instead of vh*/
     margin: 0;
     padding: 0;
     background-color: #f3eded;
@@ -72,9 +72,7 @@ select, input, textarea {
 input[type="checkbox"], input[type="radio"] {
     display: inline;
     width: unset;
-    vertical-align: text-bottom;    
+    vertical-align: center;    
 }
 
-/*TODO:
-    --figure out how effectively align label text with nested elems    
-*/
+
