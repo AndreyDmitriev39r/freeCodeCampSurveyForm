@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: #f3eded;
     color: #313131;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 /*Consider to have title and description wrapped up in header*/
@@ -75,9 +75,9 @@ select, input, textarea {
 input[type="checkbox"], input[type="radio"] {
     display: inline;
     width: unset;
-    vertical-align: -44%; /*!!!!figure out why middle isn't working as expected*/
-    min-height: 25px;
-    min-width: 25px;
+    vertical-align: -44%; /*!!!!figure out why 'middle' isn't working as expected*/
+    min-height: 1.43rem;
+    min-width: 1.43rem;
 }
 
 
