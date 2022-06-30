@@ -48,6 +48,7 @@ fieldset {
     display: block;
     font-size : 1.2rem;
     font-weight: 450;
+    padding: 0.5rem 0; /*to make elem >40px height*/
 }
 
 p {
@@ -57,7 +58,8 @@ p {
 label {
     display: block;
     width: 100%;
-    margin: 0.7rem auto;    
+    margin: 0.7rem auto;
+    text-indent: 1%;        
 }
 
 /* for elems which NOT suppose to be inline wit label text*/
@@ -65,6 +67,7 @@ label {
 select, input, textarea {
     width: 100%;
     margin-top: 0.7rem;
+    min-height: 2em;
 }
 
 /* for elems which suppose to be inline with label text*/
@@ -72,7 +75,7 @@ select, input, textarea {
 input[type="checkbox"], input[type="radio"] {
     display: inline;
     width: unset;
-    vertical-align: center;    
+    vertical-align: -44%; /*!!!!figure out why middle isn't working as expected*/   
 }
 
 
