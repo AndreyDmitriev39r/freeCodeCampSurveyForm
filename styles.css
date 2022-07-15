@@ -6,9 +6,10 @@ body {
     background-color: #f3eded;
     color: #313131;
     font-size: 1rem;
+    background-image: url('iam_os-zOWIimSy12Q-unsplash.jpg'); /*figure out some url issues*/
 }
 
-/*Consider to have title and description wrapped up in header*/
+
 
 #title {
     font-size: 2.7rem;
@@ -26,10 +27,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-form {
+/*TODO make container for these 3 in selector below*/
+/*set new color scheme image-compatible*/
+
+
+form, #title, #description {
+    background-color: inherit;
+    z-index: 1;
     width: 100%;
     max-width: 600px;
     min-width: 350px;
+}
+
+form {  
     margin: 0 auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0.1em;    
