@@ -73,6 +73,10 @@ select, input, textarea {
     min-height: 2em;
 }
 
+textarea {
+    color:#313131;
+}
+
 /* for elems which suppose to be inline with label text*/
 
 input[type="checkbox"], input[type="radio"] {

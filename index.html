@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<!--TODO
-    add more options to dropdown and challenges
-    add placeholder to textarea
-    doublecheck INPUTS in terms of valid attributes
+<!--TODO    
+    figure out placeholder visibility    
 -->
 <html lang="en">
     <head>
@@ -32,6 +30,9 @@
                         <option value="">select role</option>
                         <option value="1">Full Time Job</option>
                         <option value="2">Full Time Learner</option>
+                        <option value="3">Student</option>
+                        <option value="4">Other</option>
+                        <option value="5">I prefer not to answer</option>
                     </select>
                 </label>
             </fieldset>
@@ -54,11 +55,23 @@
                 </label>
                 <label>Forum
                     <input type="checkbox" value="forum"/>
-                </label>                
+                </label>
+                <label>Additional courses
+                    <input type="checkbox" value="additional-courses"/>
+                </label>
+                <label>Wiki
+                    <input type="checkbox" value="wiki"/>
+                </label>
+                <label>Open-source community
+                    <input type="checkbox" value="open-source-community"/>
+                </label>
+                <label>Something else
+                    <input type="checkbox" value="something-else"/>
+                </label>               
             </fieldset>
             <fieldset>
                 <label>Do you have any suggestions?
-                    <textarea rows="5" cols="40">
+                    <textarea name ="suggestions" rows="5" cols="40" placeholder="I have soooo many...">
                     </textarea>
                 </label>
             </fieldset>
